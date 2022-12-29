@@ -18,6 +18,7 @@ These requirements are subject to change.
 14. Optionally, user can request for account deletion (permanently, not soft deletion).
 
 Now, about merchant:
+
 15. Merchant can register to have their store created on TokoBapak.
 16. Merchant can put, remove and modify their items on their store.
 17. Merchant can chat to the user, and send a follow up message.
