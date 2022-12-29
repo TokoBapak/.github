@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2000 2000" style="enable-background:new 0 0 2000 2000;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;fill:#AF1F24;}
+	.st2{fill:#F2BC83;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st3{stroke:#000000;stroke-miterlimit:10;}
+	.st4{fill:#F2E8DF;}
+</style>
+<g id="background" class="st0">
+	<rect x="0" y="3.72" class="st1" width="2000" height="2000"/>
+</g>
+<g id="face">
+	
+		<ellipse transform="matrix(0.9998 -0.0197 0.0197 0.9998 -19.8338 20.1555)" class="st2" cx="1015.28" cy="1018.91" rx="762.39" ry="711.11"/>
+</g>
+<g id="eyes">
+	<ellipse id="mata_kanan" class="st3" cx="1186.89" cy="779.89" rx="132.22" ry="172.22"/>
+	<ellipse id="mata_kiri" class="st3" cx="711.64" cy="761.68" rx="132.22" ry="172.22"/>
+</g>
+<g id="mulut">
+	<polygon id="tesla" points="843.86,1587.89 985.34,1164.27 796.4,1147.04 	"/>
+	
+		<ellipse id="mulut_00000091701193881350163330000013579089046974448512_" transform="matrix(0.056 -0.9984 0.9984 0.056 -329.7802 1979.7396)" class="st4" cx="882.07" cy="1164.27" rx="72.58" ry="214.16"/>
+	<path id="kumis" d="M1184.83,1290.36c0,0-279.66-291.74-624.34-35.15c0,0-9.19-171.57,40.6-219.06c0,0,254.3-88.85,563.74,27.57
+		C1164.83,1063.72,1208.66,1079.64,1184.83,1290.36z"/>
+</g>
+</svg>
