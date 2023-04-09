@@ -6,20 +6,23 @@ This architecture design is subject to change.
 
 Excalidraw link: https://excalidraw.com/#json=JPBApysdZoQE1j0Tm4UBF,WbBCS-GteLqgUDsgkURP0g
 
-- user service —> registration, profile
-- authentication service —> login, logout, forgot password
-- inventory service —> toko X punya produk apa aja
-- cart service —> cart, bisa juga buat handle wishlist
-- order service —> checkout system
-- analytics service —> listen ke kafka/redpanda buat masukin ke db olap
-- recommendation service (optional) —> ambil db olap over time, bikin recommendation based on behavior user
-- promotion service —> coupons, automatic promotion pas di cart
-- image proxy service (optional) —> convert image dari blob storage ke berbagai versi yang relevan
-- payment service —> panggil third party payment gateway, keep track of stuff
-- notification service —> listen ke kafka/redpanda buat ngirim push notification atau email ke user
-- shipping service —> panggil third party kayak jne, sicepat, gojek, dll
-- merchant service —> buat jadi entrypoint buat urusan dengan dashboard merchant
-- chat service (optional) —> chat antar customer <-> merchant
-- review service —> listen ke kafka/redpanda buat finished order, tagih review. nyetor list review juga.
-- promoted item service (optional) —> homepage banners & products, bisa juga buat iklan
-- wishlist service (optional) —> self explanatory
+- User service —> Handles registration and profile-related to the user
+- Authentication service —> Handles login, logout, and forgot password
+- Inventory service —> Handles products that a certain store owns
+- Cart service —> Handles user's shopping cart, might also handle user's wish list
+- Order service —> Checkout system
+- Analytics service —> Listen to Kafka/Redpanda for anything, and insert into an [OLAP database](https://www.ibm.com/topics/olap)
+- Recommendation service (optional) —> Acquire user's movement from OLAP database over time, and create a product recommendation based on the behavior
+- Promotion service —> handles coupons and automatic applied promotion on user's shopping cart
+- Image proxy service (optional) —> Convert image from blob storage to some relevant versions (black and white for sold out, etc)
+- Payment service —> Calls third party payment gateway and keep track of payment statuses
+- Notification service —> Listen to Kafka/Redpanda "notification" topic to send notification to user via email or mobile push notification
+- Shipping service —> Calls third party shipping providers and keep track of shipping statuses
+- Merchant service —> An entrypoint for merchant related businesses
+- Chat service (optional) —> Chat platform between customer and merchant
+- Review service —> Listen to Kafka/Redpanda for finished order, ask for customer review and keep list of user reviews
+- Promoted item service (optional) —> Homepage banners & products, might as well handle product advertisement
+- Wishlist service (optional) —> self explanatory
+
+If you would like to amend the architecture, please do not immediately create a pull request for this repository.
+Instead, please open an [Organization Discussion](https://github.com/orgs/TokoBapak/discussions/new?category=general) first about the changes.
