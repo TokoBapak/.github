@@ -37,6 +37,7 @@ Now, about merchant:
 
 
 PHASE 2:
+
 29. Merchant can boost their product item by putting them as an advertisement. 
 30. User login via Multi-factor authentication such as TOTP, HOTP, and e-mail. No phone SMS validation because that stuff is expensive and unrealistic. 
 31. Merchant can join the flash sale event with 35% of the product price being backed by TokoBapak. 
@@ -46,3 +47,6 @@ PHASE 2:
 35. Refunds! User can have their money refunded on failed transaction or on misbehaved merchant. With misbehaved merchant defined as merchants that neglect the merchant standard that they were asked to put up to during serving the users. The the money will be held by TokoBapak for a certain period of time until the case is resolved. If the case is not resolved by the time it should have, TokoBapak will return the money to the customer, let the customer have the product, and give a warning to the merchant.
 36. Merchant can get warnings if they misbehaved (per number 35). They can be banned if they already have 10 warnings.
 37. Merchant can ask for amnesty for their warnings if they have proof against it. That means... we will have a moderation team. (This is subject to change)
+
+If you would like to amend the business requirements, please do not immediately create a pull request for this repository.
+Instead, please open an [Organization Discussion](https://github.com/orgs/TokoBapak/discussions/new?category=general) first about the changes.

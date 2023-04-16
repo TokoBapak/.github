@@ -18,6 +18,6 @@ atau tanya aja di [Telegram]((https://t.me/teknologi_umum_v2)).
 Beberapa dokumen lain yang bisa dibaca:
 
 * [Business Requirements](./BUSINESS_REQUIREMENTS.md)
-* [Guide on creating new backend service](./NEW_SERVICE.md)
+* [Guide on creating new backend service](./NEW_BACKEND_SERVICE.md)
 * [Architecture design](./ARCHITECTURE.md)
 * [Contribution guide](./CONTRIBUTING.md)
