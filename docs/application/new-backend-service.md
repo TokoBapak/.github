@@ -9,7 +9,9 @@ The team will reject and hard delete the repository if a service was made withou
 A few requirements has to be met to create a service:
 
 1. Use gRPC for presentation/transport layer. Submit your `.proto` file on the [proto repository](https://github.com/TokoBapak/proto).
-2. No third party dependency (database, message bus, blob storage, etc) that use Java (and JVM derivatives), please. Go search for an alternative. Example: Typesense instead of Elasticsearch, Redpanda instead of Kafka, and ScyllaDB instead of Cassandra.
+2. No third party dependency (database, message bus, blob storage, etc.) that uses Java (and JVM derivatives), please. Go
+   search for an alternative. Example: Typesense instead of Elasticsearch, Redpanda instead of Kafka, and ScyllaDB
+   instead of Cassandra.
 3. It's okay if your service have slow response time, or running a long process. But please, don't let it consume high CPU and RAM usage.
 4. Provide a Dockerfile for deployment purpose.
 

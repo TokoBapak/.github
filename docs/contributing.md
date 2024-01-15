@@ -1,7 +1,5 @@
 # Contribution Guide
 
-For Bahasa Indonesia, see [CONTRIBUTING_ID.md](./CONTRIBUTING_ID.md)
-
 Hello! We assume you're as interested as us for creating this highly hype-driven development
 of fake e-Commerce website that is most likely be deployed once everything's ready.
 To make things easier, we have a few guideline that you can use as a baseline for some
@@ -10,18 +8,18 @@ working on the project.
 
 ## Communicating with the team
 
-You are open to join the TokoBapak Github organization as long as you are willing to contribute
+You are open to join the TokoBapak GitHub organization as long as you are willing to contribute
 and maintain the development process of TokoBapak. Bear in mind that we do not like people
 who joined to our organization just to show off their organization list on their profile while
 contributing nothing to the organization itself.
 
 We value asynchronous communication over synchronous ones. That means we are communicating more
 in a written-form that doesn't require immediate reply like you would do on voice calls.
-We utilize Github teams discussion, repository issues, and Telegram group for that.
+We utilize GitHub teams discussion, repository issues, and Telegram group for that.
 
 By joining the organization, you will be assigned to a team of your choice of backend, frontend,
 and infrastructure team. Each team have a team discussion that discuss stuff related to their role.
-For more about Github's team discussion, you can follow
+For more about GitHub's team discussion, you can follow
 [this link](https://docs.github.com/en/organizations/collaborating-with-your-team/about-team-discussions).
 
 To join our Telegram group, you can follow [this link](https://t.me/teknologi_umum_v2).
@@ -62,9 +60,9 @@ file. The request reviews should be assigned automatically. There is no need to 
 or some people from TokoBapak to review your code, just be patient.
 
 Please create a pull request that ONLY covers 1 issue (or task). DO NOT create pull request that
-covers more than 1 issues. It will make the review process longer.
+covers more than 1 issue. It will make the review process longer.
 
 Don't aim for higher line of codes, instead aim for higher quality.
 
 Multiple people can work on a single pull request together. They should communicate and sort things
-out themself (if that is between them).
+out themselves (if that is between them).
