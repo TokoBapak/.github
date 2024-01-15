@@ -15,4 +15,4 @@ TokoBapak merupakan bagian dari Teknologi Umum. Ikut berbincang bersama kami
 ### Ayo ikut ngoding!
 
 Kamu bisa mulai dengan ambil kerjaan dari [Garis Besar Toko si Bapak](https://github.com/orgs/TokoBapak/projects/1/views/1),
-atau tanya aja di [Telegram]((https://t.me/teknologi_umum_v2)).
+atau tanya aja di [Telegram](https://t.me/teknologi_umum_v2).
