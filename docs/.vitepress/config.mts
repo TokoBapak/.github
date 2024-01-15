@@ -66,4 +66,5 @@ export default defineConfig({
     },
   },
   lastUpdated: true,
+  ignoreDeadLinks: [/t.me\/teknologi_umum/],
 })
