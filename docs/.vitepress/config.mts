@@ -6,6 +6,7 @@ export default defineConfig({
   titleTemplate: ":title | TokoBapak",
   description: "Guide for developing TokoBapak",
   lang: "id-ID",
+  base: "/.github/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
